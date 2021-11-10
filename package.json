@@ -1,0 +1,23 @@
+{
+  "name": "Matan_Elbaz",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha 'tests/**/*.js' --recursive --file tests/test-helper",
+    "test:watch": "mocha 'tests/**/*.js' --recursive --file tests/test-helper --watch",
+    "start:dev": "nodemon server.js",
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.3.4",
+    "express": "^4.17.1",
+    "supertest": "^6.1.6"
+  },
+  "devDependencies": {
+    "mocha": "^9.1.3"
+  }
+}
